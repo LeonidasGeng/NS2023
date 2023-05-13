@@ -26,7 +26,7 @@ public class While {
         //打印10次Hello World
         //1, 循环变量的初始化   2,基于循环变量的条件    3，循环变量的改变(必须)
         int count = 0;//1
-        while (count <10){
+        while (count < 10) {
             System.out.println("Hello World!");
             count++;
         }

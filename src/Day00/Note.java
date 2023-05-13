@@ -54,6 +54,11 @@ package Day00;
     2，count < 3; //基于循环变量的条件
     3，count++; //循环变量的改变
 
+    随机数
+    Math.random(); 该功能，会返回一个double类型的小数，范围是从0到1(取不到上限1)
+
+
+
  */
 public class Note {
 }

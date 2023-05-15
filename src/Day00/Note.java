@@ -57,8 +57,12 @@ package Day00;
     随机数
     Math.random(); 该功能，会返回一个double类型的小数，范围是从0到1(取不到上限1)
 
-
-
+    while和do while的区别
+    相同点：
+        不明确循环次数，但知道循环条件
+    不同点：
+        while先判断循环条件，如果成立了才会执行循环体，可能循环体一次都不做
+        do while，先执行一次循环体，再判断while内的循环条件，至少做一次循环
  */
 public class Note {
 }

@@ -33,7 +33,7 @@ import java.util.Scanner;
  * 赋值顺序： 从右往左赋值
  * 扩展赋值符号： +=, -=, *=, /=    在自身基础上快速进行运算，并将运算的结果赋值给自身
  */
-public class operationDemo {
+public class Operation {
     public static void main(String[] args) {
         //1, 数学运算符
         int a = 10;

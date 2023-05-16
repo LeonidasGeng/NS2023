@@ -6,7 +6,7 @@ package Day06;
     假设数组第一个元素是最大值，依次与后面的元素做比较
 
  */
-public class Assignment1 {
+public class Assignment01 {
     public static void main(String[] args) {
         int[] arr ={1,666,3,43,5,64,6,3,666,23,432,4,324,234,23,4,234};
         int max = arr[0];

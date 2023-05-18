@@ -96,6 +96,75 @@ package Day00;
     3，无参，有返回值
     4，有参，有返回值
 
+    面向对象三大特征
+    类和对象
+    例子：问：狗是什么颜色？
+    狗    人类    月饼模具
+    类：抽象的，不具体的事物。一类事物的总成，在程序中是模板
+    金毛    李哥    月饼
+    对象：具体的一个事物
+
+    数据冗余，用类来解决
+
+    类：
+        放该类别下所有对象共有的属性/数据 ------变量
+        放该类别下所有对象共有的行为      ------方法
+        class Person{//人类
+            //共有的属性/数据
+            //变量:
+            String name;
+            int age;
+            String sex;
+            double height;
+
+            //共有的行为
+            //方法：
+            void eat(){ //吃
+
+            }
+            void sleep(){ //睡
+
+            }
+            void play(){ 玩
+
+            }
+
+            class car{
+                //共有的属性
+                String color;
+                String brand;
+
+                //共有的行为
+                run(){ //前进
+
+                }
+
+                back(){ //后退
+
+                }
+            }
+
+            变量
+            成员变量/全局变量：类中，方法外，作用于整个类中（包含方法）
+            局部变量：方法中，只作用于当前方法中
+
+            封装
+            将一类别下所有对象共有的属性和行为，封装到一个共有的模板中
+
+            创建对象
+            Scanner s = new Scanner();
+            Student stu = new Student(); //创建一个学生对象
+            Student s1= new Student();
+
+            创建对象的语法
+          引用数据类型   变量名    new   引用数据类型();
+            Student     stu   =  new  Student();
+
+
+
+        }
+
+
 
  */
 public class Note {

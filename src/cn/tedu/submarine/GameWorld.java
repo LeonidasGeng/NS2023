@@ -1,6 +1,6 @@
 package cn.tedu.submarine;
 /*
-    游戏窗口类
+    游戏窗口类/运行类
         负责加载运行游戏
         存放的就是运行时对象交互的逻辑
  */
@@ -14,7 +14,31 @@ public class GameWorld {
     Torpedo t;
 
     void action(){
-        ship = new BattleShip();
+        ship = new BattleShip(); //创建一个战舰对象，并将对象赋值给ship
+        ship.x=100;
+        ship.y=200;
+        ship.width = 120;
+        ship.height =80;
+        ship.speed = 30;
+
+        bomb = new Bomb();
+        //重复 ship
+        bomb.x=100;
+        bomb.y=200;
+        bomb.width = 50;
+        bomb.height =30;
+        bomb.speed = 2;
+        //重复 ship
+
+        os = new ObserverSubmarine();
+        //又要重复
+
+        ms = new MineSubmarine();
+        ts = new TorpedoSubmarine();
+        m = new Mine();
+        t = new Torpedo();
+
+
     }
     public static void main(String[] args) {
         GameWorld gw = new GameWorld();

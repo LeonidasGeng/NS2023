@@ -7,8 +7,17 @@ public class BattleShip {
     int width;
     int height;
     int speed;
+
+    BattleShip() {
+        x = 270;
+        y = 124;
+        width = 66;
+        height = 26;
+        speed = 20;
+    }
+
     //行为
-    void move(){ //移动的行为
+    void move() { //移动的行为
 
     }
 }

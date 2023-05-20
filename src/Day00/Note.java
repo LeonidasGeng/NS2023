@@ -212,6 +212,12 @@ package Day00;
         this 代表当前对象，哪个对象调用方法，那哥们方法中的成员变量代指的就是那个对象
         this 可以解决当局部变量与成员变量名字成同时，可以通过使用this关键字来明确表示访问的是当前成员变量
 
+        引用类型的数据的值默认都是null(String, 数组, 自定义类)
+        值类型: 0, 0.0
+        boolean类型默认值false
+
+        当使用空对象去访问内容时,会报NullPointerException:空指针异常
+
 
  */
 public class Note {
